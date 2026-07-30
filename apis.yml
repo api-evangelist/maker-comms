@@ -1,8 +1,24 @@
 aid: maker-comms
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maker-comms.png
 name: Maker Comms
-description: Maker Comms is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Maker Communications was an early networking-silicon company that designed high-performance
+  programmable communications processors and related software for ATM and Internet Protocol data, voice,
+  and video networks. Founded in 1994 and backed by Lightspeed Venture Partners (early investment in 1997,
+  Barry Eggers), the company went public in 1999 on NASDAQ under the ticker MAKR and was acquired by Conexant
+  Systems (NASDAQ CNXT) in 2000. It exists in the API Evangelist network as a portfolio-lead stub; it is a
+  defunct, fully-exited hardware/semiconductor company with no surviving public developer program, API, or
+  documentation surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/maker-comms/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,29 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: conexant
+x-founded: '1994'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Semiconductors
+- Networking
+- Communications Processors
+- ATM
+- Internet Protocol
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
