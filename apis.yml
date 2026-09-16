@@ -27,9 +27,9 @@ description: Maker Communications was an early networking-silicon company that d
   programmable communications processors and related software for ATM and Internet Protocol data, voice,
   and video networks. Founded in 1994 and backed by Lightspeed Venture Partners (early investment in 1997,
   Barry Eggers), the company went public in 1999 on NASDAQ under the ticker MAKR and was acquired by Conexant
-  Systems (NASDAQ CNXT) in 2000. It exists in the API Evangelist network as a portfolio-lead stub; it is a
-  defunct, fully-exited hardware/semiconductor company with no surviving public developer program, API, or
-  documentation surface to enrich.
+  Systems (NASDAQ CNXT) in 2000. It exists in the API Evangelist network as a portfolio-lead stub; it
+  is a defunct, fully-exited hardware/semiconductor company with no surviving public developer program,
+  API, or documentation surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/maker-comms/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -37,12 +37,12 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: conexant
 x-founded: '1994'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Semiconductors
